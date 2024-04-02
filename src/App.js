@@ -38,8 +38,8 @@ export default function App() {
       <CssBaseline />
       <Routes>
         {getRoutes(routes)}
-        <Route path="/sirat-e-mustaqeem/home" element={<Presentation />} />
-        <Route path="*" element={<Navigate to="/sirat-e-mustaqeem/home" />} />
+        <Route path="/home" element={<Presentation />} />
+        <Route path="*" element={<Navigate to="/home" />} />
       </Routes>
     </ThemeProvider>
   );
