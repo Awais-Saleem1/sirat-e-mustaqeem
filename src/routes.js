@@ -74,27 +74,27 @@ import PresentationPage from "layouts/pages/presentation";
 const routes = [
   {
     name: "Home",
-      route: "/presentation",
+      route: "/sirat-e-mustaqeem/home",
       component: <PresentationPage />,
   },
   {
     name: "about us",
-    route: "/pages/landing-pages/about-us",
+    route: "/sirat-e-mustaqeem/pages/landing-pages/about-us",
     component: <AboutUs />,
   },
   {
     name: "Courses",
-    route: "/pages/landing-pages/courses",
+    route: "/sirat-e-mustaqeem/pages/landing-pages/courses",
     component: <Courses />,
   },
   {
     name: "Price",
-    route: "/pages/landing-pages/prices",
+    route: "/sirat-e-mustaqeem/pages/landing-pages/prices",
     component: <Prices />,
   },
   {
     name: "Contact Us",
-    route: "/pages/landing-pages/contact-us",
+    route: "/sirat-e-mustaqeem/pages/landing-pages/contact-us",
     component: <ContactUs />,
   },
 
