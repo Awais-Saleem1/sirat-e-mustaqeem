@@ -13,7 +13,9 @@ import DefaultCounterCard from "examples/Cards/CounterCards/DefaultCounterCard";
 import MKTypography from "components/MKTypography";
 
 function PriceDetail() {
-  const [plans, setPlans] = useState([])
+  const [plans, setPlans] = useState([]);
+  const [annually, setAnnually] = useState(false)
+
   return (
     <MKBox component="section" pt={8} pb={8}>
       <Grid container spacing={1} justifyContent="space-evenly" height="100%">
@@ -21,7 +23,7 @@ function PriceDetail() {
           <Card>
             <MKBox
               variant="gradient"
-              bgColor="success"
+              // bgColor="success"
               borderRadius="lg"
               coloredShadow="info"
               mx={2}
@@ -29,6 +31,14 @@ function PriceDetail() {
               p={2}
               mb={1}
               textAlign="center"
+              sx={() => ({
+                cursor: "pointer",
+                backgroundColor: "#4caf4f",
+                "&:hover": {
+                  backgroundColor: "green",
+                  color: 'black',
+                }
+              })}
             >
               <MKTypography variant="h4" fontWeight="medium" color="white">
                 Weekend Plan
@@ -76,7 +86,7 @@ function PriceDetail() {
           <Card>
             <MKBox
               variant="gradient"
-              bgColor="success"
+              // bgColor="success"
               borderRadius="lg"
               coloredShadow="info"
               mx={2}
@@ -84,6 +94,14 @@ function PriceDetail() {
               p={2}
               mb={1}
               textAlign="center"
+              sx={() => ({
+                cursor: "pointer",
+                backgroundColor: "#4caf4f",
+                "&:hover": {
+                  backgroundColor: "green",
+                  color: 'black',
+                }
+              })}
             >
               <MKTypography variant="h3" fontWeight="medium" color="white">
                 Weekdays Plan
@@ -127,55 +145,11 @@ function PriceDetail() {
           </Card>
         </Grid>
 
-        {/* <Grid item xs={11} sm={9} md={5} lg={4} xl={2.6} mb={4}>
-          <MKBox
-            variant="gradient"
-            bgColor="success"
-            borderRadius="lg"
-            coloredShadow="info"
-            p={2}
-            textAlign="center"
-          >
-            <MKTypography variant="h4" fontWeight="medium" color="white" mb={2}>
-              Custom Plan
-            </MKTypography>
-
-            <MKTypography variant="body2" color="white">
-              $22.5 Per Month
-            </MKTypography>
-            <div style={{ height: 10, borderBottomColor: 'black', borderWidth: 1, }} />
-
-            <MKTypography variant="body2" fontWeight="medium" color="white">
-              Online Classes
-            </MKTypography>
-
-            <MKTypography variant="body2" fontWeight="medium" color="white">
-              3 classes per week
-            </MKTypography>
-
-            <MKTypography variant="body2" fontWeight="medium" color="white">
-              8 classes per Month
-            </MKTypography>
-
-            <MKTypography variant="body2" fontWeight="medium" color="white">
-              One to one sessions
-            </MKTypography>
-
-            <MKTypography variant="body2" fontWeight="medium" color="white">
-              2 days FREE trial
-            </MKTypography>
-
-            <MKTypography variant="body2" fontWeight="medium" color="white">
-              Flexible timing
-            </MKTypography>
-          </MKBox>
-        </Grid> */}
-
         <Grid item xs={12} sm={10} md={6} lg={5} xl={3} mb={4}>
           <Card>
             <MKBox
               variant="gradient"
-              bgColor="success"
+              // bgColor="success"
               borderRadius="lg"
               coloredShadow="info"
               mx={2}
@@ -183,6 +157,14 @@ function PriceDetail() {
               p={2}
               mb={1}
               textAlign="center"
+              sx={() => ({
+                cursor: "pointer",
+                backgroundColor: "#4caf4f",
+                "&:hover": {
+                  backgroundColor: "green",
+                  color: 'black',
+                }
+              })}
             >
               <MKTypography variant="h4" fontWeight="medium" color="white">
                 Custom Plan
@@ -227,6 +209,8 @@ function PriceDetail() {
         </Grid>
 
       </Grid>
+
+      {/* </Grid> */}
     </MKBox>
   );
 }

@@ -79,22 +79,22 @@ const routes = [
   },
   {
     name: "about us",
-    route: "/sirat-e-mustaqeem/pages/landing-pages/about-us",
+    route: "/sirat-e-mustaqeem/pages/about-us",
     component: <AboutUs />,
   },
   {
     name: "Courses",
-    route: "/sirat-e-mustaqeem/pages/landing-pages/courses",
+    route: "/sirat-e-mustaqeem/pages/courses",
     component: <Courses />,
   },
   {
     name: "Price",
-    route: "/sirat-e-mustaqeem/pages/landing-pages/prices",
+    route: "/sirat-e-mustaqeem/pages/prices",
     component: <Prices />,
   },
   {
     name: "Contact Us",
-    route: "/sirat-e-mustaqeem/pages/landing-pages/contact-us",
+    route: "/sirat-e-mustaqeem/pages/contact-us",
     component: <ContactUs />,
   },
 
