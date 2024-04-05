@@ -1,19 +1,3 @@
-/*
-=========================================================
-* E Learning React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-// @mui material components
 import Grid from "@mui/material/Grid";
 
 // E Learning React components
@@ -35,6 +19,7 @@ import bgImage from "assets/images/illustrations/illustration-reset.jpg";
 import CenteredFooter from "examples/Footers/CenteredFooter";
 
 function ContactUs() {
+
   return (
     <>
       <MKBox position="fixed" top="0.5rem" width="100%">
@@ -103,12 +88,19 @@ function ContactUs() {
                 If you have any questions or need further information, please contact us using email
                 <b> contact@sirat-e-mustaqeem.com</b> or contact using our contact form.
               </MKTypography>
-              <MKBox width="100%" component="form" method="post" autoComplete="off">
+
+              {/* email hash for FormSubmit -> "d2a5930f22046576f6484d71ac5bceb0"*/}
+              <form
+                id="myForm"
+                action="https://formsubmit.co/d2a5930f22046576f6484d71ac5bceb0"
+                method="POST"
+              >
                 <Grid container spacing={3}>
                   <Grid item xs={12} md={6}>
                     <MKInput
                       variant="standard"
                       label="Full Name"
+                      name="name"
                       InputLabelProps={{ shrink: true }}
                       fullWidth
                     />
@@ -116,6 +108,7 @@ function ContactUs() {
                   <Grid item xs={12} md={6}>
                     <MKInput
                       type="email"
+                      name="email"
                       variant="standard"
                       label="Email"
                       InputLabelProps={{ shrink: true }}
@@ -126,6 +119,7 @@ function ContactUs() {
                     <MKInput
                       variant="standard"
                       label="Subject"
+                      name="subject"
                       InputLabelProps={{ shrink: true }}
                       fullWidth
                     />
@@ -135,6 +129,7 @@ function ContactUs() {
                       type="number"
                       variant="standard"
                       label="Phone"
+                      name="phone"
                       InputLabelProps={{ shrink: true }}
                       fullWidth
                     />
@@ -142,6 +137,7 @@ function ContactUs() {
                   <Grid item xs={12}>
                     <MKInput
                       variant="standard"
+                      name="description"
                       label="What can we help you?"
                       placeholder="Describe your query here"
                       InputLabelProps={{ shrink: true }}
@@ -152,17 +148,27 @@ function ContactUs() {
                   </Grid>
                 </Grid>
                 <Grid container item justifyContent="center" xs={12} mt={5} mb={2}>
-                  <MKButton type="submit" variant="gradient" color="info">
-                    Send Message
-                  </MKButton>
+                  <button type="submit"
+                    style={{
+                      backgroundColor: "#3c7ef0",
+                      borderColor: "transparent",
+                      height: 50,
+                      width: 150,
+                      borderRadius: 10,
+                      color: 'white',
+                      fontSize: 13,
+                      fontWeight: 'bold'
+                    }}>
+                    SEND MESSAGE
+                  </button>
+
                 </Grid>
-              </MKBox>
+              </form>
             </MKBox>
           </MKBox>
         </Grid>
       </Grid>
       <MKBox pt={6} px={1} mt={6}>
-        {/* <DefaultFooter content={footerRoutes} /> */}
         <CenteredFooter />
       </MKBox>
     </>
