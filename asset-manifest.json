@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/sirat-e-mustaqeem/static/js/main.5b0b1d96.js",
+    "main.js": "/sirat-e-mustaqeem/static/js/main.12ac1018.js",
     "static/media/rotating-card-bg-front.jpeg": "/sirat-e-mustaqeem/static/media/rotating-card-bg-front.bdcdfadc0dacb9bc5f23.jpeg",
     "static/media/bg-coworking.jpeg": "/sirat-e-mustaqeem/static/media/bg-coworking.06bccc47fe6ae5366bf8.jpeg",
     "static/media/bg-sign-in-basic.jpeg": "/sirat-e-mustaqeem/static/media/bg-sign-in-basic.f327db1d0e4b00ba3c81.jpeg",
@@ -26,9 +26,9 @@
     "static/media/logo-apple.svg": "/sirat-e-mustaqeem/static/media/logo-apple.f9c2682e61da98dfbc703a4dccd0d064.svg",
     "static/media/logo-nasa.svg": "/sirat-e-mustaqeem/static/media/logo-nasa.c5d11f8820bfde5fd64db0074156e06c.svg",
     "index.html": "/sirat-e-mustaqeem/index.html",
-    "main.5b0b1d96.js.map": "/sirat-e-mustaqeem/static/js/main.5b0b1d96.js.map"
+    "main.12ac1018.js.map": "/sirat-e-mustaqeem/static/js/main.12ac1018.js.map"
   },
   "entrypoints": [
-    "static/js/main.5b0b1d96.js"
+    "static/js/main.12ac1018.js"
   ]
 }
