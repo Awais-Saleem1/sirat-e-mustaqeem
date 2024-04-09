@@ -13,10 +13,9 @@ import CoursesDetail from "pages/LandingPages/Courses/sections/CoursesDetail";
 
 // Routes
 import routes from "routes";
-import footerRoutes from "footer.routes";
 
 // Images
-import bgImage1 from "assets/images/rotating-card-bg-front.jpeg";
+// import bgImage1 from "assets/images/rotating-card-bg-front.jpeg";
 import bgImage3 from "assets/images/bg3.jpg";
 import CenteredFooter from "examples/Footers/CenteredFooter";
 
@@ -31,11 +30,11 @@ function Courses() {
           label: "WhatsApp",
           color: "success",
         }}
-        transparent
-        light
+        // transparent
+        // light
       />
       <MKBox
-        minHeight="30vh"
+        minHeight="40vh"
         width="100%"
         sx={{
           backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>

@@ -3,16 +3,13 @@ import Grid from "@mui/material/Grid";
 // E Learning React components
 import MKBox from "components/MKBox";
 import MKInput from "components/MKInput";
-import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
 // E Learning React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
 
 // Routes
 import routes from "routes";
-import footerRoutes from "footer.routes";
 
 // Image
 import bgImage from "assets/images/illustrations/illustration-reset.jpg";
@@ -22,7 +19,6 @@ function ContactUs() {
 
   return (
     <>
-      <MKBox position="fixed" top="0.5rem" width="100%">
         <DefaultNavbar
           routes={routes}
           action={{
@@ -31,8 +27,9 @@ function ContactUs() {
             label: "WhatsApp",
             color: "success",
           }}
+          sticky
         />
-      </MKBox>
+
       <Grid container spacing={3} alignItems="center">
         <Grid item xs={12} lg={6}>
           <MKBox

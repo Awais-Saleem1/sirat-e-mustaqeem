@@ -13,7 +13,6 @@ import PriceDetail from "pages/LandingPages/Prices/sections/PriceDetail";
 
 // Routes
 import routes from "routes";
-import footerRoutes from "footer.routes";
 
 // Images
 import bgImage from "assets/images/bg-about-us.jpg";
@@ -30,11 +29,11 @@ function Prices() {
           label: "WhatsApp",
           color: "success",
         }}
-        transparent
-        light
+        // transparent
+        // light
       />
       <MKBox
-        minHeight="30vh"
+        minHeight="40vh"
         width="100%"
         sx={{
           backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>

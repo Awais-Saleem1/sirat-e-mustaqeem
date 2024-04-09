@@ -13,7 +13,6 @@ import Details from "pages/LandingPages/AboutUs/sections/Details";
 
 // Routes
 import routes from "routes";
-import footerRoutes from "footer.routes";
 
 // Images
 import bgImage1 from "assets/images/rotating-card-bg-front.jpeg"
@@ -30,11 +29,11 @@ function AboutUs() {
             label: "WhatsApp",
             color: "success",
         }}
-        transparent
-        light
+        // transparent
+        // light
       />
       <MKBox
-        minHeight="30vh"
+        minHeight="40vh"
         width="100%"
         sx={{
           backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>

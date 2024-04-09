@@ -5,24 +5,14 @@ import Card from "@mui/material/Card";
 // E Learning React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import MKSocialButton from "components/MKSocialButton";
 
 // E Learning React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
-import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
 // Presentation page sections
 import Counters from "pages/Presentation/sections/Counters";
-import Information from "pages/Presentation/sections/Information";
-import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
-import Pages from "pages/Presentation/sections/Pages";
-import Testimonials from "pages/Presentation/sections/Testimonials";
-import Download from "pages/Presentation/sections/Download";
-// import ContactUs from "pages/LandingPages/ContactUs";
-
-// Presentation page components
-import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
+import QuranHadith from "pages/Presentation/sections/QuranHadith";
 
 // Routes
 import routes from "routes";
@@ -30,7 +20,7 @@ import footerRoutes from "footer.routes";
 
 // Images
 // import bgImage from "assets/images/bg-presentation.jpg";
-import masjidOutsideImage from "assets/images/Masjid-Nabawi-outside.jpeg";
+// import masjidOutsideImage from "assets/images/Masjid-Nabawi-outside.jpeg";
 import image1 from "assets/images/bg-sign-in-basic.jpeg";
 import CenteredFooter from "examples/Footers/CenteredFooter";
 // import riadhulJannahImage from "assets/images/Riadhul-Jannah.jpeg";
@@ -98,6 +88,7 @@ function Presentation() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
+        <QuranHadith />
         <Counters />
       </Card>
       <MKBox pt={6} px={1} mt={6}>
