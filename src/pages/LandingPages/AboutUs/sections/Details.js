@@ -2,10 +2,10 @@
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
-// E Learning React components
+// Code To Success React components
 import MKBox from "components/MKBox";
 
-// E Learning React examples
+// Code To Success React examples
 import MKTypography from "components/MKTypography";
 
 function Details() {
@@ -26,7 +26,7 @@ function Details() {
           <MKTypography variant="body2" color="text" mb={2}>
             Their noteworthy commitment and impressive dedication to their work, their remarkable aptitude for teaching each
             student according to his/her learning capability, and their exceptional mastery over the recitation, Tajweed, and
-            Tarteel of the Quran are some of the things our <b> Sirat e Mustaqeem </b> Quran Academy is extremely proud of. You are only going to find
+            Tarteel of the Quran are some of the things our <b> Code To Success </b> Quran Academy is extremely proud of. You are only going to find
             these things in our online Quran academy.
           </MKTypography>
 

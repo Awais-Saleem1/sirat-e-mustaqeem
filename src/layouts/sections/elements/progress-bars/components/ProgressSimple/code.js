@@ -3,7 +3,7 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Stack from "@mui/material/Stack";
 
-// E Learning React components
+// Code To Success React components
 import MKBox from "components/MKBox";
 import MKProgress from "components/MKProgress";
 

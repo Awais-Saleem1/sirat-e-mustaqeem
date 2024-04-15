@@ -1,0 +1,38 @@
+[
+    {
+        "event": "Eid al Fitr",
+        "date": "1st Shawwal"
+    },
+    {
+        "event": "Day of ‘Arafah",
+        "date": "9th Dhul Hijjah"
+    },
+    {
+        "event": "Eid al Adha",
+        "date": "10th Dhul Hijjah"
+    },
+    {
+        "event": "Islamic New Year",
+        "date": "1st Muharram"
+    },
+    {
+        "event": "Day of Ashura",
+        "date": "10th Muharram"
+    },
+    {
+        "event": "Birth of رسول اللہ ﷺ",
+        "date": "12th Rabi Al Awwal"
+    },
+    {
+        "event": "Al Isra’ wal Mi’raj",
+        "date": "27th Rajab"
+    },
+    {
+        "event": "Shab-e-Barat",
+        "date": "15th Shaban"
+    },
+    {
+        "event": "Laylatul Qadr",
+        "date": "27th Ramadan**"
+    }
+]

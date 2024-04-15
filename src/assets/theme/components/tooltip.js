@@ -1,6 +1,6 @@
 /**
 =========================================================
-* E Learning React - v2.1.0
+* Code To Success React - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -16,12 +16,12 @@ Coded by www.creative-tim.com
 // @mui material components
 import Fade from "@mui/material/Fade";
 
-// E Learning React base styles
+// Code To Success React base styles
 import colors from "assets/theme/base/colors";
 import typography from "assets/theme/base/typography";
 import borders from "assets/theme/base/borders";
 
-// E Learning React helper functions
+// Code To Success React helper functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { black, light } = colors;

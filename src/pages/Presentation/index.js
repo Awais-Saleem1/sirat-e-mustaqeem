@@ -2,17 +2,18 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 
-// E Learning React components
+// Code To Success React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-// E Learning React examples
+// Code To Success React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 
 // Presentation page sections
 import Counters from "pages/Presentation/sections/Counters";
 import QuranHadith from "pages/Presentation/sections/QuranHadith";
+import CalendarEvents from "pages/Presentation/sections/CalendarEvents";
 
 // Routes
 import routes from "routes";
@@ -32,7 +33,7 @@ function Presentation() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://wa.me/923214638690?text=I'm%20interested%20in%20online%20Quran%20class.",
+          route: "https://wa.me/923164446868?text=I'm%20interested%20in%20online%20Quran%20class.",
           label: "WhatsApp",
           color: "success",
         }}
@@ -62,7 +63,7 @@ function Presentation() {
                 },
               })}
             >
-              Sirat e Mustaqeem Academy{" "}
+              Code To Success Academy{" "}
             </MKTypography>
             <MKTypography
               variant="body1"
@@ -89,6 +90,7 @@ function Presentation() {
         }}
       >
         <QuranHadith />
+        <CalendarEvents />
         <Counters />
       </Card>
       <MKBox pt={6} px={1} mt={6}>

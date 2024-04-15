@@ -4,11 +4,11 @@ import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 
-// E Learning React themes
+// Code To Success React themes
 import theme from "assets/theme";
 import Presentation from "layouts/pages/presentation";
 
-// E Learning React routes
+// Code To Success React routes
 import routes from "routes";
 
 export default function App() {

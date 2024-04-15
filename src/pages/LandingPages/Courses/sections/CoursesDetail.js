@@ -5,10 +5,10 @@ import Card from "@mui/material/Card";
 import MuiLink from "@mui/material/Link";
 
 
-// E Learning React components
+// Code To Success React components
 import MKBox from "components/MKBox";
 
-// E Learning React examples
+// Code To Success React examples
 import DefaultCounterCard from "examples/Cards/CounterCards/DefaultCounterCard";
 import MKTypography from "components/MKTypography";
 
@@ -50,7 +50,7 @@ function CoursesDetail() {
               <MKTypography variant="body2" color="text" mb={1}>
                 After learning Noorani Qaida they are able to recognize words and join the words. Sound foundation
                 in learning Noorani Qaida helps students read Quran with proper pronunciation. Learning this
-                booklet is not just for children but adults also must be learning Noorani Qaida in order to
+                booklet is not just for children but adults also must bCode To Success Noorani Qaida in order to
                 work through tajweed rules and improve the accuracy in recitation of Quran.
               </MKTypography>
 

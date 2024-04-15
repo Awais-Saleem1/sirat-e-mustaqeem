@@ -1,6 +1,6 @@
 /**
 =========================================================
-* E Learning React - v2.1.0
+* Code To Success React - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -14,15 +14,15 @@ Coded by www.creative-tim.com
 */
 
 /**
- * The base border styles for the E Learning React.
+ * The base border styles for the Code To Success React.
  * You can add new border width, border color or border radius using this file.
- * You can customized the borders value for the entire E Learning React using thie file.
+ * You can customized the borders value for the entire Code To Success React using thie file.
  */
 
-// E Learning React Base Styles
+// Code To Success React Base Styles
 import colors from "assets/theme/base/colors";
 
-// E Learning React Helper Functions
+// Code To Success React Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { grey } = colors;

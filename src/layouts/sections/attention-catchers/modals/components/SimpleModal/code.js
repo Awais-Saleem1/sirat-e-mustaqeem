@@ -10,7 +10,7 @@ import Slide from "@mui/material/Slide";
 // @mui icons
 import CloseIcon from "@mui/icons-material/Close";
 
-// E Learning React components
+// Code To Success React components
 import MKBox from "components/MKBox";
 import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";

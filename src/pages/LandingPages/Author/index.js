@@ -2,7 +2,7 @@ import Card from "@mui/material/Card";
 
 import MKBox from "components/MKBox";
 
-// E Learning React examples
+// Code To Success React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Author page sections

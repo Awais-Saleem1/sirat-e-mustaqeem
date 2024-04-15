@@ -3,11 +3,11 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 
-// E Learning React components
+// Code To Success React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-// E Learning React examples
+// Code To Success React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import CoursesDetail from "pages/LandingPages/Courses/sections/CoursesDetail";
 
@@ -26,7 +26,7 @@ function Courses() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://wa.me/923214638690?text=I'm%20interested%20in%20online%20Quran%20class.",
+          route: "https://wa.me/923164446868?text=I'm%20interested%20in%20online%20Quran%20class.",
           label: "WhatsApp",
           color: "success",
         }}
@@ -73,7 +73,7 @@ function Courses() {
               Online Quran Courses
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
-            Online courses offered in Sirat e Mustaqeem Quran Academy are
+            Online courses offered in Code To Success Quran Academy are
             </MKTypography>
           </Grid>
         </Container>

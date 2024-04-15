@@ -5,10 +5,10 @@ import Card from "@mui/material/Card";
 import MuiLink from "@mui/material/Link";
 
 
-// E Learning React components
+// Code To Success React components
 import MKBox from "components/MKBox";
 
-// E Learning React examples
+// Code To Success React examples
 import DefaultCounterCard from "examples/Cards/CounterCards/DefaultCounterCard";
 import MKTypography from "components/MKTypography";
 
@@ -60,7 +60,7 @@ function PriceDetail() {
               </MKTypography>
               <div style={{ height: 1, backgroundColor: 'lightgrey', marginTop: 6, marginBottom: 6 }} />
 
-              <MKTypography variant="body2" mb="2" border="4" >
+              <MKTypography variant="body2" mb="2" >
                 <b>8</b> classes per Month
               </MKTypography>
               <div style={{ height: 1, backgroundColor: 'lightgrey', marginTop: 6, marginBottom: 6 }} />

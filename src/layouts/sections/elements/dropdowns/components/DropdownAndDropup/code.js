@@ -7,7 +7,7 @@ import Icon from "@mui/material/Icon";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 
-// E Learning React components
+// Code To Success React components
 import MKBox from "components/MKBox";
 import MKButton from "components/MKButton";
 

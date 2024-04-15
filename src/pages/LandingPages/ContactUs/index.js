@@ -1,11 +1,11 @@
 import Grid from "@mui/material/Grid";
 
-// E Learning React components
+// Code To Success React components
 import MKBox from "components/MKBox";
 import MKInput from "components/MKInput";
 import MKTypography from "components/MKTypography";
 
-// E Learning React examples
+// Code To Success React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Routes
@@ -23,7 +23,7 @@ function ContactUs() {
           routes={routes}
           action={{
             type: "external",
-            route: "https://wa.me/923214638690?text=I'm%20interested%20in%20online%20Quran%20class.",
+            route: "https://wa.me/923164446868?text=I'm%20interested%20in%20online%20Quran%20class.",
             label: "WhatsApp",
             color: "success",
           }}
@@ -93,6 +93,7 @@ function ContactUs() {
                 method="POST"
               >
                 <Grid container spacing={3}>
+                  {/* <input type="hidden" name="_next" value="https://awais-saleem1.github.io/sirat-e-mustaqeem/" /> */}
                   <Grid item xs={12} md={6}>
                     <MKInput
                       variant="standard"
@@ -143,6 +144,7 @@ function ContactUs() {
                       rows={6}
                     />
                   </Grid>
+                  {/* <input type="hidden" name="_next" value="https://awais-saleem1.github.io/sirat-e-mustaqeem/" /> */}
                 </Grid>
                 <Grid container item justifyContent="center" xs={12} mt={5} mb={2}>
                   <button type="submit"
@@ -160,6 +162,7 @@ function ContactUs() {
                   </button>
 
                 </Grid>
+                <input type="hidden" name="_next" value="https://awais-saleem1.github.io/sirat-e-mustaqeem/" />
               </form>
             </MKBox>
           </MKBox>

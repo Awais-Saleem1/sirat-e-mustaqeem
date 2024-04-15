@@ -1,6 +1,6 @@
 /*
 =========================================================
-* E Learning React - v2.1.0
+* Code To Success React - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -17,11 +17,11 @@ Coded by www.creative-tim.com
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
-// E Learning React components
+// Code To Success React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-// E Learning React components
+// Code To Success React components
 import TransparentBlogCard from "examples/Cards/BlogCards/TransparentBlogCard";
 import BackgroundBlogCard from "examples/Cards/BlogCards/BackgroundBlogCard";
 
@@ -57,8 +57,8 @@ function Places() {
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
               image={post2}
-              title="MateLabs machine learning"
-              description="If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with ..."
+              title="MateLabs machinCode To Success"
+              description="If you’ve ever wanted to train a machinCode To Success model and integrate it with IFTTT, you now can with ..."
               action={{
                 type: "internal",
                 route: "/pages/blogs/author",
@@ -70,8 +70,8 @@ function Places() {
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
               image={post3}
-              title="MateLabs machine learning"
-              description="If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with ..."
+              title="MateLabs machinCode To Success"
+              description="If you’ve ever wanted to train a machinCode To Success model and integrate it with IFTTT, you now can with ..."
               action={{
                 type: "internal",
                 route: "/pages/blogs/author",

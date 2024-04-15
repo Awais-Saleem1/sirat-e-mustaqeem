@@ -1,6 +1,6 @@
 /**
 =========================================================
-* E Learning React - v2.1.0
+* Code To Success React - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -14,9 +14,9 @@ Coded by www.creative-tim.com
 */
 
 /**
- * The base breakpoints for the E Learning React.
+ * The base breakpoints for the Code To Success React.
  * You can add new breakpoints using this file.
- * You can customized the breakpoints for the entire E Learning React using thie file.
+ * You can customized the breakpoints for the entire Code To Success React using thie file.
  */
 
 export default {

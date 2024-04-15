@@ -3,11 +3,11 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 
-// E Learning React components
+// Code To Success React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-// E Learning React examples
+// Code To Success React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import Details from "pages/LandingPages/AboutUs/sections/Details";
 
@@ -25,7 +25,7 @@ function AboutUs() {
         routes={routes}
         action={{
           type: "external",
-            route: "https://wa.me/923214638690?text=I'm%20interested%20in%20online%20Quran%20class.",
+            route: "https://wa.me/923164446868?text=I'm%20interested%20in%20online%20Quran%20class.",
             label: "WhatsApp",
             color: "success",
         }}

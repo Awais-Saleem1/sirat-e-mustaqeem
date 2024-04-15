@@ -6,7 +6,7 @@ import InputAdornment from "@mui/material/InputAdornment";
 // @mui icons
 import SearchIcon from "@mui/icons-material/Search";
 
-// E Learning React components
+// Code To Success React components
 import MKBox from "components/MKBox";
 import MKInput from "components/MKInput";
 

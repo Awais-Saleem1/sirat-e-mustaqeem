@@ -1,7 +1,7 @@
-const navbarDarkCode = `// E Learning React components
+const navbarDarkCode = `// Code To Success React components
 import MKBox from "components/MKBox";
 
-// E Learning React examples
+// Code To Success React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Routes
