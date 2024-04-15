@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sirat-e-mustaqeem/static/css/main.1eec203c.css",
-    "main.js": "/sirat-e-mustaqeem/static/js/main.952a76ec.js",
+    "main.css": "/sirat-e-mustaqeem/static/css/main.aad73082.css",
+    "main.js": "/sirat-e-mustaqeem/static/js/main.3011e599.js",
     "static/media/rotating-card-bg-front.jpeg": "/sirat-e-mustaqeem/static/media/rotating-card-bg-front.bdcdfadc0dacb9bc5f23.jpeg",
     "static/media/bg-coworking.jpeg": "/sirat-e-mustaqeem/static/media/bg-coworking.06bccc47fe6ae5366bf8.jpeg",
     "static/media/bg-sign-in-basic.jpeg": "/sirat-e-mustaqeem/static/media/bg-sign-in-basic.f327db1d0e4b00ba3c81.jpeg",
@@ -19,11 +19,11 @@
     "static/media/team-3.jpg": "/sirat-e-mustaqeem/static/media/team-3.0ef0be95e6850814c79e.jpg",
     "static/media/team-4.jpg": "/sirat-e-mustaqeem/static/media/team-4.85c82b6e60178804017f.jpg",
     "index.html": "/sirat-e-mustaqeem/index.html",
-    "main.1eec203c.css.map": "/sirat-e-mustaqeem/static/css/main.1eec203c.css.map",
-    "main.952a76ec.js.map": "/sirat-e-mustaqeem/static/js/main.952a76ec.js.map"
+    "main.aad73082.css.map": "/sirat-e-mustaqeem/static/css/main.aad73082.css.map",
+    "main.3011e599.js.map": "/sirat-e-mustaqeem/static/js/main.3011e599.js.map"
   },
   "entrypoints": [
-    "static/css/main.1eec203c.css",
-    "static/js/main.952a76ec.js"
+    "static/css/main.aad73082.css",
+    "static/js/main.3011e599.js"
   ]
 }
