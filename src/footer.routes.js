@@ -21,20 +21,20 @@ export default {
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/CreativeTim/",
+      link: "https://www.facebook.com/",
     },
     {
       icon: <TwitterIcon />,
-      link: "https://twitter.com/creativetim",
+      link: "https://twitter.com/",
     },
     {
       icon: <GitHubIcon />,
-      link: "https://github.com/creativetimofficial",
+      link: "https://github.com/",
     },
-    {
-      icon: <YouTubeIcon />,
-      link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
-    },
+    // {
+    //   icon: <YouTubeIcon />,
+    //   link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
+    // },
   ],
   menus: [
     {

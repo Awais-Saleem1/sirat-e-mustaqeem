@@ -19,7 +19,7 @@ function QuranHadith() {
     const [hadith, setHadith] = useState(0);
 
     // multipy with 60 for 1 minute / 3600 for 1 hour / 86400 for 24 hours
-    let timeInterval = 1000 * 10;
+    let timeInterval = 1000 * 86400;
 
     useEffect(() => {
         setTimeout(() => {
