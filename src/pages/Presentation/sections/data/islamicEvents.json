@@ -1,38 +1,38 @@
 [
     {
         "event": "Eid al Fitr",
-        "date": "1st Shawwal"
+        "date": "1st Shawwal / 10th April"
     },
     {
         "event": "Day of ‘Arafah",
-        "date": "9th Dhul Hijjah"
+        "date": "9th Dhul Hijjah / 15th June"
     },
     {
         "event": "Eid al Adha",
-        "date": "10th Dhul Hijjah"
+        "date": "10th Dhul Hijjah / 16th June"
     },
     {
         "event": "Islamic New Year",
-        "date": "1st Muharram"
+        "date": "1st Muharram / 7th July"
     },
     {
         "event": "Day of Ashura",
-        "date": "10th Muharram"
+        "date": "10th Muharram / 16th July"
     },
     {
         "event": "Birth of رسول اللہ ﷺ",
-        "date": "12th Rabi Al Awwal"
+        "date": "12th Rabi Al Awwal / 15th Sep"
     },
     {
         "event": "Al Isra’ wal Mi’raj",
-        "date": "27th Rajab"
+        "date": "27th Rajab / 27th January"
     },
     {
         "event": "Shab-e-Barat",
-        "date": "15th Shaban"
+        "date": "15th Shaban / 14th February"
     },
     {
         "event": "Laylatul Qadr",
-        "date": "27th Ramadan**"
+        "date": "27th Ramadan** / 27th March"
     }
 ]
